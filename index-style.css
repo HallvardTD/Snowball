@@ -76,14 +76,7 @@ nav {
   grid-column: 2;
   grid-row: 2;
 }
-.e{
-  grid-column: 1 / 2;
-		grid-row: 3;
-}
-.f{
-  grid-column: 2 ;
-  grid-row: 3;
-}
+
 .container1{
     align-content: center;
     font-size: 1.2em;
@@ -98,7 +91,7 @@ nav {
 }
 .container1 p{
   text-align: center;
-  margin: 40px;
+  margin-top: 20%;
   font-size: 1.6em
 }
 .container2{
@@ -120,6 +113,9 @@ nav {
   border-radius: 15px 15px 15px 15px;
 }
 
+.footer{
+  background-color: #eee;
+}
 .h2{
     text-align: center;
     margin: 3em;
