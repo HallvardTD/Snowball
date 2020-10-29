@@ -76,6 +76,14 @@ nav {
   grid-column: 2;
   grid-row: 2;
 }
+.e{
+  grid-column: 1 / 2;
+		grid-row: 3;
+}
+.f{
+  grid-column: 2 ;
+  grid-row: 3;
+}
 .container1{
     align-content: center;
     font-size: 1.2em;
