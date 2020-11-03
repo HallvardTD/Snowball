@@ -12,7 +12,7 @@ nav {
   height: 100px;
   background-color: #fff;
 }
-.logo a{
+.logo {
   display: block;
   text-decoration: none;
   font-family: Courier;
@@ -23,7 +23,7 @@ nav {
   text-align: left;
   width: auto;
   height: auto;
-  position: fixed;
+  position: static;
   top: 18px;
   left: 20px;
   z-index: 1;
@@ -32,15 +32,14 @@ nav {
 .navbar{
   padding-top: 40px;
   padding-bottom: 40px;
-  text-align: center;
   background: #fff;
   position: fixed;
   width: 100%;
   border-bottom: 0.5px solid grey;
+  float: left;
 }
 
 .ul li {
-  text-align: center;
   list-style: none;
   display: inline-block;
 }
@@ -133,4 +132,12 @@ nav {
 }
 .img-barn{
   width: 100%;
+}
+
+.col-small-50 {width: 50%;}
+.col-small-100 {width: 100%;}
+
+@media only screen and (min-width: 1000px) {
+.col-tall-50 {width: 50%;}
+.col-tall-100 {width: 100%;}
 }
