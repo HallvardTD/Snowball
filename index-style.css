@@ -58,47 +58,44 @@ button:hover {
   background-color: darkgray;
 }
 
-.wrapper{
-  margin-top: 10px;
-  display: grid;
+@media only screen and (min-width: 900px) {
+  .wrapper {
+    margin-top: 10px;
+    display: grid;
     grid-gap: 10px;
-		grid-template-columns: 50%;
+    grid-template-columns: 50%;
     background-color: #fff;
-		color: #444;
-}
-.a{
-  grid-column: 1 / 2;
-		grid-row: 1;
-}
-.b{
-  grid-column: 2 ;
-  grid-row: 1;
-}
-.c{
-  grid-column: 1 / 2;
-  grid-row: 2;
-}
-.d{
-  grid-column: 2;
-  grid-row: 2;
+    color: #444;
+  }
+
+  .c{
+    grid-column: 1 / 2;
+    grid-row: 2;
+  }
+  .d{
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .a{
+    grid-column: 1 / 2;
+    grid-row: 1;
+  }
+  .b{
+    grid-column: 2 / 2;
+    grid-row: 1;
+  }
 }
 
-.container1{
-    align-content: center;
-    font-size: 1.2em;
-    color: black;
-    height: auto;
-    margin: 10px;
-    display: fixed;
-    flex-wrap: wrap;
-    padding: 20px;
-    border-radius: 10px;
-    background: #fff;
-}
 .container1 p{
   text-align: center;
-  margin-top: 20%;
+  margin: 40px;
   font-size: 1.6em
+}
+
+@media only screen and (min-width: 500px){
+  .img-barn{
+    width: 100%;
+  }
 }
 .container2{
   position: relative;
