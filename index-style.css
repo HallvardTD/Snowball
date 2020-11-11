@@ -6,9 +6,7 @@
 }
 body {
   background-color: #fff;
-
 }
-
 
 li, a, button{
   font-family: "Montserrat", sans-serif;
@@ -59,7 +57,6 @@ button{
 button:hover {
   background-color: darkgray;
 }
-
 
 .wrapper{
   margin-top: 10px;
@@ -150,4 +147,12 @@ button:hover {
 }
 .img-barn{
   width: 100%;
+}
+
+.col-small-50 {width: 50%;}
+.col-small-100 {width: 100%;}
+
+@media only screen and (min-width: 1000px) {
+.col-tall-50 {width: 50%;}
+.col-tall-100 {width: 100%;}
 }
